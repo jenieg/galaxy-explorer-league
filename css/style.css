@@ -1,0 +1,49 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.headfont {
+  font-family: 'Jost', sans-serif;
+}
+
+.header {
+  margin: 50px 0 0 100px;
+}
+
+.info {
+  margin: 50px 0 0 100px;
+}
+
+.explanation{
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+img, iframe{
+  display: block;
+  max-width: 50%;
+  max-height: 400px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
